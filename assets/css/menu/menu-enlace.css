@@ -1,0 +1,41 @@
+@media screen and (max-width:420px){
+    .menu__enlace{
+        color: var(--letra-vintage);
+    }
+}
+
+@media screen and (max-width:768px){
+    .menu__enlace{
+        color: var(--letra-vintage);
+        background-color: var(--background-ceniza);
+        border-radius: 2rem;
+        padding: .4rem;
+        transition: all ease-in-out .2s;
+    }
+    .menu__enlace.active{
+        background: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+    .menu__enlace:hover{
+        background: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+}
+
+@media screen and (min-width:992px){
+    .menu__enlace{
+        color: var(--letra-vintage);
+        background-color: var(--background-ceniza);
+        border-radius: 2rem;
+        padding: .4rem;
+        transition: all ease-in-out .2s;
+    }
+    .menu__enlace.active{
+        background: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+    .menu__enlace:hover{
+        background: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+}

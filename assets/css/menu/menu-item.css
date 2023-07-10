@@ -1,0 +1,11 @@
+@media screen and (max-width:420px){
+    .menu__item{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:992px){
+    .menu__item{
+        margin-left: .6rem;
+    }
+}

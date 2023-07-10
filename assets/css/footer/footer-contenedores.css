@@ -1,0 +1,23 @@
+@media screen and (max-width:420px){
+    .footer__contenedores{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer__contenedores{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:992px){
+    .footer__contenedores{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,13 @@
+.sobre__imagen{
+    height: 20rem;
+    border-radius: 10%;
+    border: .3rem solid var(--letra-azul-pastel);
+}
+
+@media screen and (max-width:768px){
+    .sobre__imagen{
+        height: 15rem;
+        border-radius: 10%;
+        border: .3rem solid var(--letra-azul-pastel);
+    }
+}

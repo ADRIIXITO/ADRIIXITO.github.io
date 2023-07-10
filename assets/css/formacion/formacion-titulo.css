@@ -1,0 +1,22 @@
+.formacion__titulo{
+    color: var(--letra-azul-pastel);
+    padding-top: .3rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    width: 17rem;
+    font-size: 1.5rem;
+    border-bottom: .2rem solid var(--letra-azul-pastel);
+}
+
+@media screen and (max-width:768px){
+    .formacion__titulo{
+        color: var(--letra-azul-pastel);
+        padding-top: .3rem;
+        padding-bottom: .5rem;
+        text-align: center;
+        width: 21.1rem;
+        font-size: 1.5rem;
+        border-bottom: .2rem solid var(--letra-azul-pastel);
+    }
+}
+

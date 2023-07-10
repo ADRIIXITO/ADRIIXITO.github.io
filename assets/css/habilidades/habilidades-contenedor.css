@@ -1,0 +1,20 @@
+.habilidades__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:768px){
+    .habilidades__contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .habilidades__contenedor img{
+        height: 7rem;
+        width: 7rem;
+    }
+    .metodologia__contenedor img{
+        height: 7rem;
+        width: 7rem;
+    }
+}

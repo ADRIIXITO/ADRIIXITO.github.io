@@ -1,0 +1,27 @@
+@media screen and (max-width:420px){
+    .inicio__imagen{
+        border-radius: 100%;
+        margin: 1.5rem;
+        height: 18rem;
+        border: .4rem solid var(--borde-gris);
+    }
+}
+
+@media screen and (max-width:768px){
+    .inicio__imagen{
+        border-radius: 100%;
+        margin: 1.5rem;
+        height: 10rem;
+        border: .4rem solid var(--borde-gris);
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .inicio__imagen{
+        border-radius: 100%;
+        margin: 1.5rem;
+        height: 20rem;
+        border: .4rem solid var(--borde-gris);
+    }
+}

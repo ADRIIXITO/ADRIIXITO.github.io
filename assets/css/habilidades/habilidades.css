@@ -1,0 +1,45 @@
+@media screen and (max-width:420px){
+    .habilidades{
+        background-color: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+    .habilidades__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .habilidades{
+        background-color: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+    .habilidades__metodologias{
+        display: flex;
+
+    }
+    .habilidades__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .habilidades{
+        background-color: var(--background-azul-pastel);
+        color: var(--letra-negra);
+    }
+    .habilidades__metodologias{
+        height: 40.5vw;
+    }
+    .habilidades__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}

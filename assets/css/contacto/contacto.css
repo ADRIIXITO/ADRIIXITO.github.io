@@ -1,0 +1,41 @@
+@media screen and (max-width:420px){
+    .contacto{
+        background-color: var(--background-azul-pastel);
+        align-items: center;
+    }
+    .contacto__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contacto{
+        background-color: var(--background-azul-pastel);
+        align-items: center;
+    }
+    
+    .contacto__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .contacto{
+        background-color: var(--background-azul-pastel);
+        align-items: center;
+        height: 40.5vw;
+    }
+    
+    .contacto__titulo{
+        color: var(--letra-negra);
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+}

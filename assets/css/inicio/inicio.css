@@ -1,0 +1,22 @@
+@media screen and (max-width:420px){
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-azul-pastel);
+    }
+}
+
+@media screen and (max-width:768px){
+    .inicio{
+        display: flex;
+        background-color: var(--background-azul-pastel);
+    }
+}
+
+@media screen and (min-width:992px){
+    .inicio{
+        display: flex;
+        background-color: var(--background-azul-pastel);
+        height: 40.5vw;
+    }
+}

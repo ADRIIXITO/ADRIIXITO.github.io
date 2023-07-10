@@ -1,0 +1,89 @@
+@media screen and (max-width:420px){
+    .contacto__input{
+        width: 16rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        padding: .2rem;
+        display: flex;
+        flex-direction: column;
+        color: #333;
+        resize: none;
+    }
+    .contacto__boton--enviar{
+        width: 16.8rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        font-size: 1rem;
+        padding: .3rem;
+        margin-top: .5rem;
+        transition: .2s all ease-in-out;
+    }
+    
+    .contacto__boton--enviar:hover{
+    
+        border: .1800rem solid var(--borde-gris);
+        background-color: var(--borde-gris);
+    }
+}
+
+@media screen and (max-width:768px){
+    .contacto__input {
+        width: 20rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        padding: .2rem;
+        display: flex;
+        flex-direction: column;
+        color: #333;
+        resize: none;
+    }
+
+    .contacto__boton--enviar {
+        width: 20.8rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        padding: .3rem;
+        margin-top: .5rem;
+        transition: .2s all ease-in-out;
+    }
+
+    .contacto__boton--enviar:hover {
+
+        border: .1800rem solid var(--borde-gris);
+        background-color: var(--borde-gris);
+    }
+}
+
+@media screen and (min-width:992px) {
+    .contacto__input {
+        width: 20rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        padding: .2rem;
+        display: flex;
+        flex-direction: column;
+        color: #333;
+        resize: none;
+    }
+
+    .contacto__boton--enviar {
+        width: 20.8rem;
+        border-radius: 1rem;
+        border: .1800rem solid var(--borde-gris);
+        font-family: nunito;
+        padding: .3rem;
+        margin-top: .5rem;
+        transition: .2s all ease-in-out;
+    }
+
+    .contacto__boton--enviar:hover {
+
+        border: .1800rem solid var(--borde-gris);
+        background-color: var(--borde-gris);
+    }
+}

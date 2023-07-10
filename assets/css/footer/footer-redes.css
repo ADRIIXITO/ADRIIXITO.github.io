@@ -1,0 +1,19 @@
+.footer__redes--link{
+    padding-right: 1.5rem;
+    display: flex;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (min-width:992px){
+    .footer__redes--link{
+        padding-right: 1.5rem;
+        display: flex;
+        text-align: center;
+        width: 2rem;
+        height: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+    }
+}

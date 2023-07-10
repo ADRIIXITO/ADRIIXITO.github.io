@@ -1,0 +1,7 @@
+.menu__logo{
+    display: flex;
+    align-items: center;
+}
+.menu__imagen{
+    block-size: 2.2rem;
+}

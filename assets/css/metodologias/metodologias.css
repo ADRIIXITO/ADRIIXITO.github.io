@@ -1,0 +1,11 @@
+.metodologias{
+    background-color: var(--background-azul-pastel);
+    color: var(--letra-negra);
+}
+
+.metodologias__titulo{
+    color: var(--letra-negra);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1rem;
+}

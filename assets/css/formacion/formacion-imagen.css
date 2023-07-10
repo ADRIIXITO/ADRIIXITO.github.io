@@ -1,0 +1,17 @@
+.formacion__imagen{
+    height: 6rem;
+    width: 11rem;
+    padding: 3rem;
+    border-radius: 10rem;
+    background-color: var(--background-azul-pastel);
+}
+
+@media screen and (max-width:768px){
+    .formacion__imagen{
+        height: 8rem;
+        width: 15rem;
+        padding: 3rem;
+        border-radius: 10rem;
+        background-color: var(--background-azul-pastel);
+    }
+}
