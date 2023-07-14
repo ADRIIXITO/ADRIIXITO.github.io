@@ -19,11 +19,11 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .inicio__contenedor--principal{
         display: flex;
         align-items: center;
-        margin: 3rem 5rem 3rem 5rem;
+        margin: 2rem 1rem 2rem 1rem;
     }
     .inicio__contenedor1{
         display: flex;
@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .inicio__contenedor--principal{
         display: flex;
         align-items: center;

@@ -5,14 +5,14 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .menu{
         background-color: var(--background-ceniza);
         position: static;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .menu{
         background-color: var(--background-ceniza);
         padding: .5rem;

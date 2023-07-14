@@ -6,12 +6,12 @@
     .contacto__titulo{
         color: var(--letra-negra);
         text-align: center;
-        font-size: 30px;
+        font-size: 2rem;
         padding-top: 1rem;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .contacto{
         background-color: var(--background-azul-pastel);
         align-items: center;
@@ -20,12 +20,12 @@
     .contacto__titulo{
         color: var(--letra-negra);
         text-align: center;
-        font-size: 30px;
+        font-size: 2rem;
         padding-top: 1rem;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .contacto{
         background-color: var(--background-azul-pastel);
         align-items: center;

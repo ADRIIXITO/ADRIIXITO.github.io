@@ -1,7 +1,9 @@
 .menu__logo{
     display: flex;
     align-items: center;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
 }
 .menu__imagen{
-    block-size: 2.2rem;
+    block-size: 2rem;
 }

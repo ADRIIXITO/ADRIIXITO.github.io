@@ -6,14 +6,14 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .inicio{
         display: flex;
         background-color: var(--background-azul-pastel);
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .inicio{
         display: flex;
         background-color: var(--background-azul-pastel);

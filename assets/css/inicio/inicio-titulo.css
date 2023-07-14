@@ -14,9 +14,9 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .inicio__titulo1{
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: left;
         color: var(--letra-negra);
     }
@@ -26,11 +26,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: left;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .inicio__titulo1{
         font-size: 3rem;
         text-align: left;

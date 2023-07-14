@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .formacion__descripcion{
         color: var(--letra-azul-pastel);
         text-align: justify;

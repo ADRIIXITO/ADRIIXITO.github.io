@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .menu__enlace{
         color: var(--letra-vintage);
         background-color: var(--background-ceniza);
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .menu__enlace{
         color: var(--letra-vintage);
         background-color: var(--background-ceniza);

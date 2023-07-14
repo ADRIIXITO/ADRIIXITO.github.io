@@ -2,10 +2,11 @@
 @media screen and (max-width:420px){
     .footer__contenedor2{
         padding: 1rem;
+        display: flex;
     }
 }
 
-@media screen and (max-width:420px){
+@media screen and (min-width:421px) and (max-width:899px){
     .footer__contenedor2{
         display: flex;
     }    

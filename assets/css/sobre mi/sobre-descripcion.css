@@ -12,21 +12,20 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .sobre__descripcion1{
         color: var(--letra-azul-pastel);
         font-size: 1.1rem;
-        margin-left: 2%;
+        padding-top: 1rem;
     }
     
     .sobre__descripcion2{
         color: var(--letra-azul-pastel);
         font-size: 1.1rem;
-        margin-left: 2%;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .sobre__descripcion1{
         color: var(--letra-azul-pastel);
         font-size: 1.2rem;

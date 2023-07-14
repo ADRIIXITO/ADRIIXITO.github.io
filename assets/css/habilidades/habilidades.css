@@ -11,14 +11,13 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .habilidades{
         background-color: var(--background-azul-pastel);
         color: var(--letra-negra);
     }
     .habilidades__metodologias{
         display: flex;
-
     }
     .habilidades__titulo{
         color: var(--letra-negra);
@@ -28,7 +27,7 @@
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .habilidades{
         background-color: var(--background-azul-pastel);
         color: var(--letra-negra);

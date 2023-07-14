@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .contacto__formulario{
         display: flex;
         flex-direction: column;
@@ -20,11 +20,11 @@
         background-color: var(--letra-vintage);
         border-radius: 2rem;
         border: .2rem solid var(--borde-gris);
-        height: 24rem;
+        height: 23rem;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .contacto__formulario{
         display: flex;
         flex-direction: column;

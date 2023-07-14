@@ -1,3 +1,5 @@
-.footer__link{
-    padding-left: 1.5rem;
+@media screen and (min-width:421px) and (max-width:899px) {
+    .footer__link {
+        padding-left: 1.5rem;
+    }
 }

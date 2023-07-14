@@ -7,7 +7,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .inicio__imagen{
         border-radius: 100%;
         margin: 1.5rem;
@@ -17,7 +17,7 @@
 }
 
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .inicio__imagen{
         border-radius: 100%;
         margin: 1.5rem;

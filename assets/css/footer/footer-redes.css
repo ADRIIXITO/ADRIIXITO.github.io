@@ -6,7 +6,7 @@
     height: 2rem;
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .footer__redes--link{
         padding-right: 1.5rem;
         display: flex;

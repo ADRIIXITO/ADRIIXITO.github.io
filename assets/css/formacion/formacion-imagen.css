@@ -6,7 +6,7 @@
     background-color: var(--background-azul-pastel);
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .formacion__imagen{
         height: 8rem;
         width: 15rem;

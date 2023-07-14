@@ -4,14 +4,13 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .contacto__imagen{
-        height: 18rem;
-        width: 18rem;
+        display: none;
     }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:900px){
     .contacto__imagen{
         height: 20rem;
         width: 20rem;

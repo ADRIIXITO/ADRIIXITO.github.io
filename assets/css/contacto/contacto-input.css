@@ -1,6 +1,6 @@
 @media screen and (max-width:420px){
     .contacto__input{
-        width: 16rem;
+        width: 14rem;
         border-radius: 1rem;
         border: .1800rem solid var(--borde-gris);
         font-family: nunito;
@@ -11,7 +11,7 @@
         resize: none;
     }
     .contacto__boton--enviar{
-        width: 16.8rem;
+        width: 14.8rem;
         border-radius: 1rem;
         border: .1800rem solid var(--borde-gris);
         font-family: nunito;
@@ -28,9 +28,9 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:421px) and (max-width:899px){
     .contacto__input {
-        width: 20rem;
+        width: 16rem;
         border-radius: 1rem;
         border: .1800rem solid var(--borde-gris);
         font-family: nunito;
@@ -42,7 +42,7 @@
     }
 
     .contacto__boton--enviar {
-        width: 20.8rem;
+        width: 16.8rem;
         border-radius: 1rem;
         border: .1800rem solid var(--borde-gris);
         font-family: nunito;
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:900px) {
     .contacto__input {
         width: 20rem;
         border-radius: 1rem;
